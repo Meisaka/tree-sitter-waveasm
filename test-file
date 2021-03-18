@@ -1,0 +1,15 @@
+hello test more
+ fluffy
+link ; command
+; more
+  :join; ree?
+  :join ; ree?
+
+  string03:
+  	.DB " L", 0 + 0b1111
+
+	.align 16
+	write %r0, '\r'
+	save 93fh, 007
+.ORG 0x0100 ; *****
+	XYZ_value:       .reserve 4

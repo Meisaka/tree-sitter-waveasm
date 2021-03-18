@@ -1,0 +1,25 @@
+{
+  "name": "tree-sitter-waveasm",
+  "version": "0.2.0",
+  "description": "Parser for WaveAsm compatible assembly files",
+  "main": "bindings/node",
+  "dependencies": {
+    "nan": "^2.14.2"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.18.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "assembly",
+    "asm",
+    "parser",
+    "tree-sitter",
+    "isf"
+  ],
+  "repository": "https://github.com/Meisaka/tree-sitter-waveasm",
+  "author": "Meisaka Yukara <Meisaka.Yukara@gmail.com>",
+  "license": "ISC"
+}
